@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+
+}
+
+#titulo-menuSuperior {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin: 20px 7px;
+}
+
+#texto-menuSuperior {
+  font-size: 17px;
+  margin: 0px 7px;
+}
+
+#menuSuperior {
+    background-color: #303030;
+    color: white;
+    padding: 130px 40px;
+}
+
+#menuD{
+    background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.number{
+    margin: 50px 0px -30px 95px;
+    padding: 25px;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+.legenda{
+    margin: 0px 0px 50px 120px;
+    font-size: 20px;
+  color: #444;
+  margin-top: 4px;
+
+}
+
+#secaoFoto {
+    display: flex;
+    align-items: space;
+    justify-content: space-around;
+    padding: 60px 80px;
+}
+
+#tituloFoto {
+  padding-top: 20%;
+  font-size: 50px;
+  font-family: 'inter';
+}
+
+#textoFoto {
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: 'inter';
+}
+
+#formulario {
+  background-color: #303030;
+  color: white;
+  text-align: center;
+}
+
+#titulo-formulario {
+  font-size: 50px;
+  margin: 30px;
+  padding-top: 30px;
+  
+}
+
+input {
+  width: 513px;
+  height: 75px;
+  background-color: #eaece5;
+  margin: 35px;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: 'Rubik';
+  color: #0000004D;
+}
+
+button {
+  background-color: #C07212;
+  width: 413px;
+  height: 70px;
+  margin: 50px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: 'Rubik';
+  color: #ffffff;
+  
+}
+
+button:hover {
+  background-color: #d47b0e;
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 20px #C07212;
+  transition-duration: 0.5s;
+}
